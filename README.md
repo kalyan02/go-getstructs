@@ -4,11 +4,16 @@ Simple tool to extract go structure declarations in all go files in a given dire
 
 ## Usage:
 
-Usage of ./go-getstructs:
-  -ast
-        print ast (optional) of one file
-  -dir string
-        the directory (required)
+    Usage of ./go-getstructs:
+    
+    -ast
+          print ast (optional) of one file
+    -dir string
+          the directory (required)
+
+## Example Usage
+
+    ./go-getstructs -dir test-source
 
 ## License
 
